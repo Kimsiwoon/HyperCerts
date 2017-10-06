@@ -71,12 +71,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
       <h2 class="form-signin-heading">Please login</h2>
       <input type="text" class="form-control" name="username" placeholder="ID" required="" autofocus="" />
       <input type="password" class="form-control" name="password" placeholder="Password" required=""/>      
-    
-      <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
-    <!-- 네이버아이디로로그인 버튼 노출 영역 -->
-  <div id="naver_id_login">
-  <!-- //네이버아이디로로그인 버튼 노출 영역 -->
+       <button class="btn btn-lg btn-primary btn-block" type="submit">Login</button>   
+      
+     <div id="naver_id_login">
+  </div><!-- //네이버아이디로로그인 버튼 노출 영역 -->
   <script type="text/javascript">
+  
   	var naver_id_login = new naver_id_login("YOUR_CLIENT_ID", "YOUR_CALLBACK_URL");
   	var state = naver_id_login.getUniqState();
   	naver_id_login.setButton("white", 2,40);
@@ -85,9 +85,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
   	naver_id_login.setPopup();
   	naver_id_login.init_naver_id_login();
   </script>
-  </div>
+  소셜 계정 간편로그인
     </form>
   </div>
+     
+      
+    <!-- 네이버아이디로로그인 버튼 노출 영역 -->
+ 
 
  <!-- 네이버아이디로로그인 버튼 노출 영역 -->
  
